@@ -1,0 +1,21 @@
+import React from "react";
+import Image from "next/image";
+
+export default function Profitcomponent(props) {
+  return (
+    <div className="grid grid-cols-1  bg-bggray rounded-lg my-10">
+      <div className="flex items-center p-10">
+        <Image src={props.img} alt=""  width="40"/>
+
+        <div className="ml-20">
+          <p className=" text-left font-popins text-graylight font-semibold text-sm1 ">
+            {props.title}
+          </p>
+          <p className="text-Black1 font-popins text-left font-bold text-[15px] ">
+            {props.desc}
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}

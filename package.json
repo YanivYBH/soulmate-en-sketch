@@ -1,0 +1,38 @@
+{
+  "name": "cosmi-charm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@material-tailwind/react": "^2.1.4",
+    "add": "^2.0.6",
+    "flowbite-react": "^0.6.4",
+    "fs": "^0.0.1-security",
+    "next": "14.0.0",
+    "path": "^0.12.7",
+    "postscribe": "^2.0.8",
+    "react": "^18",
+    "react-awesome-reveal": "^4.2.6",
+    "react-dom": "^18",
+    "react-facebook-pixel": "^1.0.4",
+    "react-icons": "^4.11.0",
+    "react-pixel-tiktok": "^1.0.1",
+    "react-progress-bar": "^0.1.0",
+    "react-select": "^5.8.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "tiktok-pixel": "^2.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.0",
+    "postcss": "^8",
+    "tailwindcss": "^3"
+  }
+}

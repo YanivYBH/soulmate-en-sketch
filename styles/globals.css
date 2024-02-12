@@ -1,0 +1,2042 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: "rose";
+  height: 100vh;
+}
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+.middle-page{
+  height: 75%;
+    margin-bottom: auto;
+    margin: auto;
+    margin-top: 100px;
+}
+.center-img{
+  align-self: center  !important;
+}
+.padding-10{
+  padding: 10px;
+}
+.sub-title{
+  text-align: -webkit-center;
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+.sub-title-nomargin{
+  font-size: 11px;
+  text-align: -webkit-center;
+  margin-top: 10px;
+}
+.logo-margin{
+  margin-right: -14px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.progress{
+  background-color: #3e307e;
+  color: white;
+  padding: 6px;
+  font-size: 15px;
+  padding-right: 9px;
+  padding-left: 9px;
+  border-radius: 10px;
+
+}
+@media only screen and (max-width: 600px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+.bg-slider{
+  background-color: #efe6ff;
+}
+.text-bold{
+  font-size: 14px;
+}
+.rounded-sm{
+border-radius: 5px;
+}
+.bg-grey-card{
+  background-color: #f7f0f5;
+}
+.padding-15 {
+  padding: 15px;
+}
+.text-line{
+  text-decoration-line: line-through;
+}
+.present-border-second{
+  border-top-style: dotted;
+    border-color: grey;
+    border-width: 2px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    padding-top: 10px;
+}
+.free{
+  color: #19b632;
+    font-size: 22px;
+}
+.realtives{
+  position: relative !important;
+  border-radius: 10px;
+}
+.free-gifts{
+  color: #19b632;
+    
+}
+.flexomn{
+  display: flex !important;
+}
+.border-present{
+  border-color: grey;
+    border-style: dotted;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.center2{
+
+  justify-content: center;
+
+}
+.verylightPurple{
+  background-color: '#d8d1f9';
+}
+.with97{
+  width: 97%;
+}
+.borders-rev{
+  border-color: #dcdcdc;
+    border-width: thin;
+}
+.txt-white{
+  color: white;
+}
+.center1{
+  text-align: -webkit-center;
+}
+.startccenter{
+  display: flex;
+    place-content: center;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.title-costume{
+  font-size: 21px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  color: #202020;
+}
+.title-costume2{
+  font-size: 25px;
+  margin-top: 10px;
+  font-weight: bolder;
+  color: #202020;
+}
+.checkbox.checked .arrow {
+  content: "\u2713"; /* Unicode checkmark character */
+  font-size: 18px;
+  margin-right: 8px;
+  color: green;
+}
+.font-size16{
+  font-size: 15px;
+}
+.arrow {
+  font-size: 18px;
+  margin-right: 8px;
+  color: gray;
+}
+.zindex99{
+  z-index: 99999;
+}
+.paddings-c{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.book {
+  cursor: pointer;
+  display: block;
+  width: 150px;
+  height: 220px;
+  position: relative;
+  background: white;
+  z-index: 1;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 9px 20px 0 rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  transition: box-shadow 0.3s linear;
+}
+
+.book img {
+  width: inherit;
+  height: inherit;
+  transform-origin: 0 50%;
+  transform: rotateY(0);
+  transition: all 0.45s ease;
+}
+
+.book:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 9px 20px 0 rgba(0, 0, 0, 0.45);
+}
+.book:hover img {
+  transform: rotateY(-25deg);
+  box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.book::after,
+.book::before {
+  content: "";
+  display: block;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  background: white;
+  border: 1px solid #d9d9d9;
+}
+
+.book::before {
+  left: -3px;
+}
+
+.book::after {
+  left: -6px;
+}
+.margin-15px{
+  margin-right: -15px;
+}
+input[type="checkbox"] {
+  /* -webkit-appearance: none; */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+@keyframes typing {
+  0.0000%, 27.3488% { content: ""; }
+  1.1395%, 26.2093% { content: "h"; }
+  2.2791%, 25.0698% { content: "ha"; }
+  3.4186%, 23.9302% { content: "hap"; }
+  4.5581%, 22.7907% { content: "happ"; }
+  5.6977%, 21.6512% { content: "happi"; }
+  6.8372%, 20.5116% { content: "happin"; }
+  7.9767%, 19.3721% { content: "happine"; }
+  9.1163%, 18.2326% { content: "happines"; }
+  10.2558%, 17.0930% { content: "happiness"; }
+
+  30.7674%, 51.2791% { content: ""; }
+  31.9070%, 50.1395% { content: "h"; }
+  33.0465%, 49.0000% { content: "ha"; }
+  34.1860%, 47.8605% { content: "hap"; }
+  35.3256%, 46.7209% { content: "happ"; }
+  36.4651%, 45.5814% { content: "happy"; }
+
+  54.6977%, 75.2093% { content: ""; }
+  55.8372%, 74.0698% { content: "r"; }
+  56.9767%, 72.9302% { content: "re"; }
+  58.1163%, 71.7907% { content: "rea"; }
+  59.2558%, 70.6512% { content: "read"; }
+  60.3953%, 69.5116% { content: "reade"; }
+  61.5349%, 68.3721% { content: "reader"; }
+
+  78.6279%, 96.8605% { content: ""; }
+  79.7674%, 95.7209% { content: "h"; }
+  80.9070%, 94.5814% { content: "hu"; }
+  82.0465%, 93.4419% { content: "hum"; }
+  83.1860%, 92.3023% { content: "huma"; }
+  84.3256%, 91.1628% { content: "human"; }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.typewriter {
+  --caret: currentcolor;
+}
+
+.typewriter::before {
+  content: "";
+  animation: typing 13.5s infinite;
+}
+
+.typewriter::after {
+  content: "";
+  border-right: 1px solid var(--caret);
+  animation: blink 0.5s linear infinite;
+}
+
+.typewriter.thick::after {
+  border-right: 1ch solid var(--caret);
+}
+
+.typewriter.nocaret::after {
+  border-right: 0;
+}
+.overflow-hidden{
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion) {
+  .typewriter::after {
+    animation: none;
+  }
+  
+  @keyframes sequencePopup {
+    0%, 100% { content: "successful"; }
+    25% { content: "writer"; }
+    50% { content: "reader"; }
+    75% { content: "human"; }
+  }
+
+  .typewriter::before {
+    content: "developer";
+    animation: sequencePopup 12s linear infinite;
+  }
+}
+.typing{
+  text-align: -webkit-center !important;
+  
+  display: inline-flex !important;
+  
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+}
+.avatar {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 100px;
+	height: 100px;
+
+	border-radius: 10%;
+	overflow: hidden;
+
+	/* Subtle inner border */
+	box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.015);
+}
+.avatar2 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 100px;
+	height: 100px;
+
+	border-radius: 10%;
+	overflow: hidden;
+
+	/* Subtle inner border */
+	box-shadow: inset 0 0 1px 1px rgba(0, 0, 0, 0.015);
+}
+.greytext{
+  color:#3f3f3f;
+}
+.lightgrey{
+  color: #b6b2b2;
+}
+.greentext{
+  color: #4fa667;
+}
+.lefttext{
+  text-align-last: left;
+}
+.f1f1bg{
+  background-color: #f1f1f1;
+}
+.avatar img {
+	height: 70%;
+	width: 70%;
+	z-index: 2;
+
+	/* Optionally add a drop shadow to the main image	 */
+	/* to make it feel "lifted"	 */
+	filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.12));
+}
+.avatar2 img {
+	height: 55%;
+	width: 55%;
+	z-index: 2;
+
+	/* Optionally add a drop shadow to the main image	 */
+	/* to make it feel "lifted"	 */
+	filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.12));
+}
+
+.avatar .background {
+	position: absolute;
+	z-index: 1;
+	pointer-events: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	transform: scale(2);
+	filter: blur(13px) opacity(0.2);
+}
+.avatar2 .background {
+	position: absolute;
+	z-index: 1;
+	pointer-events: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	transform: scale(2);
+	filter: blur(13px) opacity(0.2);
+}
+
+/* Irrelevant styling */
+
+
+
+.container-apps {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	place-items: center;
+}
+
+
+
+.input-wrapper {
+  display: block;
+  
+}
+.input-wrapper > input,
+.input-wrapper > .center1 > .placeholder {
+  display: block;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+ 
+  background-color: transparent;
+  border: none;
+}
+.input-wrapper > .center1 > .placeholder {
+  pointer-events: none;
+}
+.rounded-xl2{
+  border-radius: 7px;
+}
+.underline{
+  text-decoration: underline;
+}
+.padding-5{
+  padding: 5px;
+}
+.bg-purp{
+  background-color: #00072f 
+}
+.fn-10{
+  font-size: 10px;
+}
+.grid-display{
+  display: grid;
+}
+.input-wrapper > .center1 >.placeholder::before {
+  content: "​";
+  content: "​"/"Find Your Soulmate";
+  alt: "Find Your Soulmate";
+  white-space: break-spaces;
+  will-change: content;
+  -webkit-animation: typed-0 15s linear 1s infinite forwards;
+          animation: typed-0 15s linear 1s infinite forwards;
+}
+.input-wrapper > .center1 >.placeholder::after {
+  content: "​";
+  position: relative;
+  display: inline-block;
+  
+  white-space: nowrap;
+  -webkit-animation: typed-0-caret 0.75s linear 1s infinite forwards;
+          animation: typed-0-caret 0.75s linear 1s infinite forwards;
+}
+@-webkit-keyframes typed-0 {
+  0%, 0.4434444444% {
+    content: "​F";
+    content: "​F"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  0.4444444444%, 0.8878888889% {
+    content: "​Fi";
+    content: "​Fi"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  0.8888888889%, 1.3323333333% {
+    content: "​Fin";
+    content: "​Fin"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  1.3333333333%, 1.7767777778% {
+    content: "​Find";
+    content: "​Find"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  1.7777777778%, 2.2212222222% {
+    content: "​Find ";
+    content: "​Find "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  2.2222222222%, 2.6656666667% {
+    content: "​Find Y";
+    content: "​Find Y"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  2.6666666667%, 3.1101111111% {
+    content: "​Find Yo";
+    content: "​Find Yo"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  3.1111111111%, 3.5545555556% {
+    content: "​Find You";
+    content: "​Find You"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  3.5555555556%, 3.999% {
+    content: "​Find Your";
+    content: "​Find Your"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  4%, 4.4434444444% {
+    content: "​Find Your ";
+    content: "​Find Your "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  4.4444444444%, 4.8878888889% {
+    content: "​Find Your S";
+    content: "​Find Your S"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  4.8888888889%, 5.3323333333% {
+    content: "​Find Your So";
+    content: "​Find Your So"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  5.3333333333%, 5.7767777778% {
+    content: "​Find Your Sou";
+    content: "​Find Your Sou"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  5.7777777778%, 6.2212222222% {
+    content: "​Find Your Soul";
+    content: "​Find Your Soul"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  6.2222222222%, 6.6656666667% {
+    content: "​Find Your Soulm";
+    content: "​Find Your Soulm"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  6.6666666667%, 7.1101111111% {
+    content: "​Find Your Soulma";
+    content: "​Find Your Soulma"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  7.1111111111%, 7.5545555556% {
+    content: "​Find Your Soulmat";
+    content: "​Find Your Soulmat"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  7.5555555556%, 17.2434444444% {
+    content: "​Find Your Soulmate";
+    content: "​Find Your Soulmate"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  17.2444444444%, 17.599% {
+    content: "​Find Your Soulmat";
+    content: "​Find Your Soulmat"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  17.6%, 17.9545555556% {
+    content: "​Find Your Soulma";
+    content: "​Find Your Soulma"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  17.9555555556%, 18.3101111111% {
+    content: "​Find Your Soulm";
+    content: "​Find Your Soulm"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  18.3111111111%, 18.6656666667% {
+    content: "​Find Your Soul";
+    content: "​Find Your Soul"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  18.6666666667%, 19.0212222222% {
+    content: "​Find Your Sou";
+    content: "​Find Your Sou"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  19.0222222222%, 19.3767777778% {
+    content: "​Find Your So";
+    content: "​Find Your So"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  19.3777777778%, 19.7323333333% {
+    content: "​Find Your S";
+    content: "​Find Your S"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  19.7333333333%, 20.0878888889% {
+    content: "​Find Your ";
+    content: "​Find Your "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  20.0888888889%, 20.4434444444% {
+    content: "​Find Your";
+    content: "​Find Your"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  20.4444444444%, 20.799% {
+    content: "​Find You";
+    content: "​Find You"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  20.8%, 21.1545555556% {
+    content: "​Find Yo";
+    content: "​Find Yo"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  21.1555555556%, 21.5101111111% {
+    content: "​Find Y";
+    content: "​Find Y"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  21.5111111111%, 21.8656666667% {
+    content: "​Find ";
+    content: "​Find "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  21.8666666667%, 22.2212222222% {
+    content: "​Find";
+    content: "​Find"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  22.2222222222%, 22.5767777778% {
+    content: "​Fin";
+    content: "​Fin"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  22.5777777778%, 22.9323333333% {
+    content: "​Fi";
+    content: "​Fi"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  22.9333333333%, 23.2878888889% {
+    content: "​F";
+    content: "​F"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  23.2888888889%, 27.7323333333% {
+    content: "​";
+    content: "​"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  27.7333333333%, 28.1767777778% {
+    content: "​A";
+    content: "​A"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  28.1777777778%, 28.6212222222% {
+    content: "​At";
+    content: "​At"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  28.6222222222%, 29.0656666667% {
+    content: "​Att";
+    content: "​Att"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  29.0666666667%, 29.5101111111% {
+    content: "​Attr";
+    content: "​Attr"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  29.5111111111%, 29.9545555556% {
+    content: "​Attra";
+    content: "​Attra"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  29.9555555556%, 30.399% {
+    content: "​Attrac";
+    content: "​Attrac"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  30.4%, 30.8434444444% {
+    content: "​Attract";
+    content: "​Attract"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  30.8444444444%, 31.2878888889% {
+    content: "​Attract ";
+    content: "​Attract "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  31.2888888889%, 31.7323333333% {
+    content: "​Attract t";
+    content: "​Attract t"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  31.7333333333%, 32.1767777778% {
+    content: "​Attract th";
+    content: "​Attract th"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  32.1777777778%, 32.6212222222% {
+    content: "​Attract the";
+    content: "​Attract the"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  32.6222222222%, 33.0656666667% {
+    content: "​Attract the ";
+    content: "​Attract the "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  33.0666666667%, 33.5101111111% {
+    content: "​Attract the W";
+    content: "​Attract the W"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  33.5111111111%, 33.9545555556% {
+    content: "​Attract the We";
+    content: "​Attract the We"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  33.9555555556%, 34.399% {
+    content: "​Attract the Wea";
+    content: "​Attract the Wea"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  34.4%, 34.8434444444% {
+    content: "​Attract the Weal";
+    content: "​Attract the Weal"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  34.8444444444%, 35.2878888889% {
+    content: "​Attract the Wealt";
+    content: "​Attract the Wealt"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  35.2888888889%, 35.7323333333% {
+    content: "​Attract the Wealth";
+    content: "​Attract the Wealth"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  35.7333333333%, 36.1767777778% {
+    content: "​Attract the Wealth ";
+    content: "​Attract the Wealth "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  36.1777777778%, 36.6212222222% {
+    content: "​Attract the Wealth &";
+    content: "​Attract the Wealth &"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  36.6222222222%, 37.0656666667% {
+    content: "​Attract the Wealth & ";
+    content: "​Attract the Wealth & "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  37.0666666667%, 37.5101111111% {
+    content: "​Attract the Wealth & S";
+    content: "​Attract the Wealth & S"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  37.5111111111%, 37.9545555556% {
+    content: "​Attract the Wealth & Su";
+    content: "​Attract the Wealth & Su"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  37.9555555556%, 38.399% {
+    content: "​Attract the Wealth & Suc";
+    content: "​Attract the Wealth & Suc"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  38.4%, 38.8434444444% {
+    content: "​Attract the Wealth & Succ";
+    content: "​Attract the Wealth & Succ"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  38.8444444444%, 39.2878888889% {
+    content: "​Attract the Wealth & Succe";
+    content: "​Attract the Wealth & Succe"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  39.2888888889%, 39.7323333333% {
+    content: "​Attract the Wealth & Succes";
+    content: "​Attract the Wealth & Succes"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  39.7333333333%, 49.4212222222% {
+    content: "​Attract the Wealth & Success";
+    content: "​Attract the Wealth & Success"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  49.4222222222%, 49.7767777778% {
+    content: "​Attract the Wealth & Succes";
+    content: "​Attract the Wealth & Succes"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  49.7777777778%, 50.1323333333% {
+    content: "​Attract the Wealth & Succe";
+    content: "​Attract the Wealth & Succe"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  50.1333333333%, 50.4878888889% {
+    content: "​Attract the Wealth & Succ";
+    content: "​Attract the Wealth & Succ"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  50.4888888889%, 50.8434444444% {
+    content: "​Attract the Wealth & Suc";
+    content: "​Attract the Wealth & Suc"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  50.8444444444%, 51.199% {
+    content: "​Attract the Wealth & Su";
+    content: "​Attract the Wealth & Su"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  51.2%, 51.5545555556% {
+    content: "​Attract the Wealth & S";
+    content: "​Attract the Wealth & S"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  51.5555555556%, 51.9101111111% {
+    content: "​Attract the Wealth & ";
+    content: "​Attract the Wealth & "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  51.9111111111%, 52.2656666667% {
+    content: "​Attract the Wealth &";
+    content: "​Attract the Wealth &"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  52.2666666667%, 52.6212222222% {
+    content: "​Attract the Wealth ";
+    content: "​Attract the Wealth "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  52.6222222222%, 52.9767777778% {
+    content: "​Attract the Wealth";
+    content: "​Attract the Wealth"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  52.9777777778%, 53.3323333333% {
+    content: "​Attract the Wealt";
+    content: "​Attract the Wealt"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  53.3333333333%, 53.6878888889% {
+    content: "​Attract the Weal";
+    content: "​Attract the Weal"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  53.6888888889%, 54.0434444444% {
+    content: "​Attract the Wea";
+    content: "​Attract the Wea"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  54.0444444444%, 54.399% {
+    content: "​Attract the We";
+    content: "​Attract the We"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  54.4%, 54.7545555556% {
+    content: "​Attract the W";
+    content: "​Attract the W"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  54.7555555556%, 55.1101111111% {
+    content: "​Attract the ";
+    content: "​Attract the "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  55.1111111111%, 55.4656666667% {
+    content: "​Attract the";
+    content: "​Attract the"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  55.4666666667%, 55.8212222222% {
+    content: "​Attract th";
+    content: "​Attract th"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  55.8222222222%, 56.1767777778% {
+    content: "​Attract t";
+    content: "​Attract t"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  56.1777777778%, 56.5323333333% {
+    content: "​Attract ";
+    content: "​Attract "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  56.5333333333%, 56.8878888889% {
+    content: "​Attract";
+    content: "​Attract"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  56.8888888889%, 57.2434444444% {
+    content: "​Attrac";
+    content: "​Attrac"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  57.2444444444%, 57.599% {
+    content: "​Attra";
+    content: "​Attra"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  57.6%, 57.9545555556% {
+    content: "​Attr";
+    content: "​Attr"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  57.9555555556%, 58.3101111111% {
+    content: "​Att";
+    content: "​Att"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  58.3111111111%, 58.6656666667% {
+    content: "​At";
+    content: "​At"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  58.6666666667%, 59.0212222222% {
+    content: "​A";
+    content: "​A"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  59.0222222222%, 63.4656666667% {
+    content: "​";
+    content: "​"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  63.4666666667%, 63.9101111111% {
+    content: "​H";
+    content: "​H"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  63.9111111111%, 64.3545555556% {
+    content: "​He";
+    content: "​He"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  64.3555555556%, 64.799% {
+    content: "​Hea";
+    content: "​Hea"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  64.8%, 65.2434444444% {
+    content: "​Heal";
+    content: "​Heal"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  65.2444444444%, 65.6878888889% {
+    content: "​Healt";
+    content: "​Healt"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  65.6888888889%, 66.1323333333% {
+    content: "​Health";
+    content: "​Health"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  66.1333333333%, 66.5767777778% {
+    content: "​Healthy";
+    content: "​Healthy"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  66.5777777778%, 67.0212222222% {
+    content: "​Healthy ";
+    content: "​Healthy "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  67.0222222222%, 67.4656666667% {
+    content: "​Healthy &";
+    content: "​Healthy &"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  67.4666666667%, 67.9101111111% {
+    content: "​Healthy & ";
+    content: "​Healthy & "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  67.9111111111%, 68.3545555556% {
+    content: "​Healthy & E";
+    content: "​Healthy & E"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  68.3555555556%, 68.799% {
+    content: "​Healthy & En";
+    content: "​Healthy & En"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  68.8%, 69.2434444444% {
+    content: "​Healthy & Ene";
+    content: "​Healthy & Ene"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  69.2444444444%, 69.6878888889% {
+    content: "​Healthy & Ener";
+    content: "​Healthy & Ener"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  69.6888888889%, 70.1323333333% {
+    content: "​Healthy & Energ";
+    content: "​Healthy & Energ"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  70.1333333333%, 70.5767777778% {
+    content: "​Healthy & Energe";
+    content: "​Healthy & Energe"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  70.5777777778%, 71.0212222222% {
+    content: "​Healthy & Energet";
+    content: "​Healthy & Energet"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  71.0222222222%, 71.4656666667% {
+    content: "​Healthy & Energeti";
+    content: "​Healthy & Energeti"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  71.4666666667%, 71.9101111111% {
+    content: "​Healthy & Energetic";
+    content: "​Healthy & Energetic"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  71.9111111111%, 72.3545555556% {
+    content: "​Healthy & Energetic ";
+    content: "​Healthy & Energetic "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  72.3555555556%, 72.799% {
+    content: "​Healthy & Energetic l";
+    content: "​Healthy & Energetic l"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  72.8%, 73.2434444444% {
+    content: "​Healthy & Energetic li";
+    content: "​Healthy & Energetic li"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  73.2444444444%, 73.6878888889% {
+    content: "​Healthy & Energetic lif";
+    content: "​Healthy & Energetic lif"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  73.6888888889%, 74.1323333333% {
+    content: "​Healthy & Energetic life";
+    content: "​Healthy & Energetic life"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  74.1333333333%, 74.5767777778% {
+    content: "​Healthy & Energetic lifes";
+    content: "​Healthy & Energetic lifes"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  74.5777777778%, 75.0212222222% {
+    content: "​Healthy & Energetic lifest";
+    content: "​Healthy & Energetic lifest"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  75.0222222222%, 75.4656666667% {
+    content: "​Healthy & Energetic lifesty";
+    content: "​Healthy & Energetic lifesty"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  75.4666666667%, 75.9101111111% {
+    content: "​Healthy & Energetic lifestyl";
+    content: "​Healthy & Energetic lifestyl"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  75.9111111111%, 85.599% {
+    content: "​Healthy & Energetic lifestyle";
+    content: "​Healthy & Energetic lifestyle"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  85.6%, 85.9545555556% {
+    content: "​Healthy & Energetic lifestyl";
+    content: "​Healthy & Energetic lifestyl"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  85.9555555556%, 86.3101111111% {
+    content: "​Healthy & Energetic lifesty";
+    content: "​Healthy & Energetic lifesty"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  86.3111111111%, 86.6656666667% {
+    content: "​Healthy & Energetic lifest";
+    content: "​Healthy & Energetic lifest"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  86.6666666667%, 87.0212222222% {
+    content: "​Healthy & Energetic lifes";
+    content: "​Healthy & Energetic lifes"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  87.0222222222%, 87.3767777778% {
+    content: "​Healthy & Energetic life";
+    content: "​Healthy & Energetic life"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  87.3777777778%, 87.7323333333% {
+    content: "​Healthy & Energetic lif";
+    content: "​Healthy & Energetic lif"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  87.7333333333%, 88.0878888889% {
+    content: "​Healthy & Energetic li";
+    content: "​Healthy & Energetic li"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  88.0888888889%, 88.4434444444% {
+    content: "​Healthy & Energetic l";
+    content: "​Healthy & Energetic l"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  88.4444444444%, 88.799% {
+    content: "​Healthy & Energetic ";
+    content: "​Healthy & Energetic "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  88.8%, 89.1545555556% {
+    content: "​Healthy & Energetic";
+    content: "​Healthy & Energetic"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  89.1555555556%, 89.5101111111% {
+    content: "​Healthy & Energeti";
+    content: "​Healthy & Energeti"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  89.5111111111%, 89.8656666667% {
+    content: "​Healthy & Energet";
+    content: "​Healthy & Energet"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  89.8666666667%, 90.2212222222% {
+    content: "​Healthy & Energe";
+    content: "​Healthy & Energe"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  90.2222222222%, 90.5767777778% {
+    content: "​Healthy & Energ";
+    content: "​Healthy & Energ"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  90.5777777778%, 90.9323333333% {
+    content: "​Healthy & Ener";
+    content: "​Healthy & Ener"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  90.9333333333%, 91.2878888889% {
+    content: "​Healthy & Ene";
+    content: "​Healthy & Ene"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  91.2888888889%, 91.6434444444% {
+    content: "​Healthy & En";
+    content: "​Healthy & En"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  91.6444444444%, 91.999% {
+    content: "​Healthy & E";
+    content: "​Healthy & E"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  92%, 92.3545555556% {
+    content: "​Healthy & ";
+    content: "​Healthy & "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  92.3555555556%, 92.7101111111% {
+    content: "​Healthy &";
+    content: "​Healthy &"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  92.7111111111%, 93.0656666667% {
+    content: "​Healthy ";
+    content: "​Healthy "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  93.0666666667%, 93.4212222222% {
+    content: "​Healthy";
+    content: "​Healthy"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  93.4222222222%, 93.7767777778% {
+    content: "​Health";
+    content: "​Health"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  93.7777777778%, 94.1323333333% {
+    content: "​Healt";
+    content: "​Healt"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  94.1333333333%, 94.4878888889% {
+    content: "​Heal";
+    content: "​Heal"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  94.4888888889%, 94.8434444444% {
+    content: "​Hea";
+    content: "​Hea"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  94.8444444444%, 95.199% {
+    content: "​He";
+    content: "​He"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  95.2%, 95.5545555556% {
+    content: "​H";
+    content: "​H"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  95.5555555556%, 100% {
+    content: "​";
+    content: "​"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+}
+@keyframes typed-0 {
+  0%, 0.4434444444% {
+    content: "​F";
+    content: "​F"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  0.4444444444%, 0.8878888889% {
+    content: "​Fi";
+    content: "​Fi"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  0.8888888889%, 1.3323333333% {
+    content: "​Fin";
+    content: "​Fin"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  1.3333333333%, 1.7767777778% {
+    content: "​Find";
+    content: "​Find"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  1.7777777778%, 2.2212222222% {
+    content: "​Find ";
+    content: "​Find "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  2.2222222222%, 2.6656666667% {
+    content: "​Find Y";
+    content: "​Find Y"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  2.6666666667%, 3.1101111111% {
+    content: "​Find Yo";
+    content: "​Find Yo"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  3.1111111111%, 3.5545555556% {
+    content: "​Find You";
+    content: "​Find You"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  3.5555555556%, 3.999% {
+    content: "​Find Your";
+    content: "​Find Your"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  4%, 4.4434444444% {
+    content: "​Find Your ";
+    content: "​Find Your "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  4.4444444444%, 4.8878888889% {
+    content: "​Find Your S";
+    content: "​Find Your S"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  4.8888888889%, 5.3323333333% {
+    content: "​Find Your So";
+    content: "​Find Your So"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  5.3333333333%, 5.7767777778% {
+    content: "​Find Your Sou";
+    content: "​Find Your Sou"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  5.7777777778%, 6.2212222222% {
+    content: "​Find Your Soul";
+    content: "​Find Your Soul"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  6.2222222222%, 6.6656666667% {
+    content: "​Find Your Soulm";
+    content: "​Find Your Soulm"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  6.6666666667%, 7.1101111111% {
+    content: "​Find Your Soulma";
+    content: "​Find Your Soulma"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  7.1111111111%, 7.5545555556% {
+    content: "​Find Your Soulmat";
+    content: "​Find Your Soulmat"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  7.5555555556%, 17.2434444444% {
+    content: "​Find Your Soulmate";
+    content: "​Find Your Soulmate"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  17.2444444444%, 17.599% {
+    content: "​Find Your Soulmat";
+    content: "​Find Your Soulmat"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  17.6%, 17.9545555556% {
+    content: "​Find Your Soulma";
+    content: "​Find Your Soulma"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  17.9555555556%, 18.3101111111% {
+    content: "​Find Your Soulm";
+    content: "​Find Your Soulm"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  18.3111111111%, 18.6656666667% {
+    content: "​Find Your Soul";
+    content: "​Find Your Soul"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  18.6666666667%, 19.0212222222% {
+    content: "​Find Your Sou";
+    content: "​Find Your Sou"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  19.0222222222%, 19.3767777778% {
+    content: "​Find Your So";
+    content: "​Find Your So"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  19.3777777778%, 19.7323333333% {
+    content: "​Find Your S";
+    content: "​Find Your S"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  19.7333333333%, 20.0878888889% {
+    content: "​Find Your ";
+    content: "​Find Your "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  20.0888888889%, 20.4434444444% {
+    content: "​Find Your";
+    content: "​Find Your"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  20.4444444444%, 20.799% {
+    content: "​Find You";
+    content: "​Find You"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  20.8%, 21.1545555556% {
+    content: "​Find Yo";
+    content: "​Find Yo"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  21.1555555556%, 21.5101111111% {
+    content: "​Find Y";
+    content: "​Find Y"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  21.5111111111%, 21.8656666667% {
+    content: "​Find ";
+    content: "​Find "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  21.8666666667%, 22.2212222222% {
+    content: "​Find";
+    content: "​Find"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  22.2222222222%, 22.5767777778% {
+    content: "​Fin";
+    content: "​Fin"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  22.5777777778%, 22.9323333333% {
+    content: "​Fi";
+    content: "​Fi"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  22.9333333333%, 23.2878888889% {
+    content: "​F";
+    content: "​F"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  23.2888888889%, 27.7323333333% {
+    content: "​";
+    content: "​"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  27.7333333333%, 28.1767777778% {
+    content: "​A";
+    content: "​A"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  28.1777777778%, 28.6212222222% {
+    content: "​At";
+    content: "​At"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  28.6222222222%, 29.0656666667% {
+    content: "​Att";
+    content: "​Att"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  29.0666666667%, 29.5101111111% {
+    content: "​Attr";
+    content: "​Attr"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  29.5111111111%, 29.9545555556% {
+    content: "​Attra";
+    content: "​Attra"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  29.9555555556%, 30.399% {
+    content: "​Attrac";
+    content: "​Attrac"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  30.4%, 30.8434444444% {
+    content: "​Attract";
+    content: "​Attract"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  30.8444444444%, 31.2878888889% {
+    content: "​Attract ";
+    content: "​Attract "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  31.2888888889%, 31.7323333333% {
+    content: "​Attract t";
+    content: "​Attract t"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  31.7333333333%, 32.1767777778% {
+    content: "​Attract th";
+    content: "​Attract th"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  32.1777777778%, 32.6212222222% {
+    content: "​Attract the";
+    content: "​Attract the"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  32.6222222222%, 33.0656666667% {
+    content: "​Attract the ";
+    content: "​Attract the "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  33.0666666667%, 33.5101111111% {
+    content: "​Attract the W";
+    content: "​Attract the W"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  33.5111111111%, 33.9545555556% {
+    content: "​Attract the We";
+    content: "​Attract the We"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  33.9555555556%, 34.399% {
+    content: "​Attract the Wea";
+    content: "​Attract the Wea"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  34.4%, 34.8434444444% {
+    content: "​Attract the Weal";
+    content: "​Attract the Weal"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  34.8444444444%, 35.2878888889% {
+    content: "​Attract the Wealt";
+    content: "​Attract the Wealt"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  35.2888888889%, 35.7323333333% {
+    content: "​Attract the Wealth";
+    content: "​Attract the Wealth"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  35.7333333333%, 36.1767777778% {
+    content: "​Attract the Wealth ";
+    content: "​Attract the Wealth "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  36.1777777778%, 36.6212222222% {
+    content: "​Attract the Wealth &";
+    content: "​Attract the Wealth &"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  36.6222222222%, 37.0656666667% {
+    content: "​Attract the Wealth & ";
+    content: "​Attract the Wealth & "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  37.0666666667%, 37.5101111111% {
+    content: "​Attract the Wealth & S";
+    content: "​Attract the Wealth & S"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  37.5111111111%, 37.9545555556% {
+    content: "​Attract the Wealth & Su";
+    content: "​Attract the Wealth & Su"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  37.9555555556%, 38.399% {
+    content: "​Attract the Wealth & Suc";
+    content: "​Attract the Wealth & Suc"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  38.4%, 38.8434444444% {
+    content: "​Attract the Wealth & Succ";
+    content: "​Attract the Wealth & Succ"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  38.8444444444%, 39.2878888889% {
+    content: "​Attract the Wealth & Succe";
+    content: "​Attract the Wealth & Succe"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  39.2888888889%, 39.7323333333% {
+    content: "​Attract the Wealth & Succes";
+    content: "​Attract the Wealth & Succes"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  39.7333333333%, 49.4212222222% {
+    content: "​Attract the Wealth & Success";
+    content: "​Attract the Wealth & Success"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  49.4222222222%, 49.7767777778% {
+    content: "​Attract the Wealth & Succes";
+    content: "​Attract the Wealth & Succes"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  49.7777777778%, 50.1323333333% {
+    content: "​Attract the Wealth & Succe";
+    content: "​Attract the Wealth & Succe"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  50.1333333333%, 50.4878888889% {
+    content: "​Attract the Wealth & Succ";
+    content: "​Attract the Wealth & Succ"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  50.4888888889%, 50.8434444444% {
+    content: "​Attract the Wealth & Suc";
+    content: "​Attract the Wealth & Suc"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  50.8444444444%, 51.199% {
+    content: "​Attract the Wealth & Su";
+    content: "​Attract the Wealth & Su"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  51.2%, 51.5545555556% {
+    content: "​Attract the Wealth & S";
+    content: "​Attract the Wealth & S"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  51.5555555556%, 51.9101111111% {
+    content: "​Attract the Wealth & ";
+    content: "​Attract the Wealth & "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  51.9111111111%, 52.2656666667% {
+    content: "​Attract the Wealth &";
+    content: "​Attract the Wealth &"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  52.2666666667%, 52.6212222222% {
+    content: "​Attract the Wealth ";
+    content: "​Attract the Wealth "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  52.6222222222%, 52.9767777778% {
+    content: "​Attract the Wealth";
+    content: "​Attract the Wealth"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  52.9777777778%, 53.3323333333% {
+    content: "​Attract the Wealt";
+    content: "​Attract the Wealt"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  53.3333333333%, 53.6878888889% {
+    content: "​Attract the Weal";
+    content: "​Attract the Weal"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  53.6888888889%, 54.0434444444% {
+    content: "​Attract the Wea";
+    content: "​Attract the Wea"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  54.0444444444%, 54.399% {
+    content: "​Attract the We";
+    content: "​Attract the We"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  54.4%, 54.7545555556% {
+    content: "​Attract the W";
+    content: "​Attract the W"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  54.7555555556%, 55.1101111111% {
+    content: "​Attract the ";
+    content: "​Attract the "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  55.1111111111%, 55.4656666667% {
+    content: "​Attract the";
+    content: "​Attract the"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  55.4666666667%, 55.8212222222% {
+    content: "​Attract th";
+    content: "​Attract th"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  55.8222222222%, 56.1767777778% {
+    content: "​Attract t";
+    content: "​Attract t"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  56.1777777778%, 56.5323333333% {
+    content: "​Attract ";
+    content: "​Attract "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  56.5333333333%, 56.8878888889% {
+    content: "​Attract";
+    content: "​Attract"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  56.8888888889%, 57.2434444444% {
+    content: "​Attrac";
+    content: "​Attrac"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  57.2444444444%, 57.599% {
+    content: "​Attra";
+    content: "​Attra"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  57.6%, 57.9545555556% {
+    content: "​Attr";
+    content: "​Attr"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  57.9555555556%, 58.3101111111% {
+    content: "​Att";
+    content: "​Att"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  58.3111111111%, 58.6656666667% {
+    content: "​At";
+    content: "​At"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  58.6666666667%, 59.0212222222% {
+    content: "​A";
+    content: "​A"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  59.0222222222%, 63.4656666667% {
+    content: "​";
+    content: "​"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  63.4666666667%, 63.9101111111% {
+    content: "​H";
+    content: "​H"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  63.9111111111%, 64.3545555556% {
+    content: "​He";
+    content: "​He"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  64.3555555556%, 64.799% {
+    content: "​Hea";
+    content: "​Hea"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  64.8%, 65.2434444444% {
+    content: "​Heal";
+    content: "​Heal"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  65.2444444444%, 65.6878888889% {
+    content: "​Healt";
+    content: "​Healt"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  65.6888888889%, 66.1323333333% {
+    content: "​Health";
+    content: "​Health"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  66.1333333333%, 66.5767777778% {
+    content: "​Healthy";
+    content: "​Healthy"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  66.5777777778%, 67.0212222222% {
+    content: "​Healthy ";
+    content: "​Healthy "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  67.0222222222%, 67.4656666667% {
+    content: "​Healthy &";
+    content: "​Healthy &"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  67.4666666667%, 67.9101111111% {
+    content: "​Healthy & ";
+    content: "​Healthy & "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  67.9111111111%, 68.3545555556% {
+    content: "​Healthy & E";
+    content: "​Healthy & E"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  68.3555555556%, 68.799% {
+    content: "​Healthy & En";
+    content: "​Healthy & En"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  68.8%, 69.2434444444% {
+    content: "​Healthy & Ene";
+    content: "​Healthy & Ene"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  69.2444444444%, 69.6878888889% {
+    content: "​Healthy & Ener";
+    content: "​Healthy & Ener"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  69.6888888889%, 70.1323333333% {
+    content: "​Healthy & Energ";
+    content: "​Healthy & Energ"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  70.1333333333%, 70.5767777778% {
+    content: "​Healthy & Energe";
+    content: "​Healthy & Energe"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  70.5777777778%, 71.0212222222% {
+    content: "​Healthy & Energet";
+    content: "​Healthy & Energet"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  71.0222222222%, 71.4656666667% {
+    content: "​Healthy & Energeti";
+    content: "​Healthy & Energeti"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  71.4666666667%, 71.9101111111% {
+    content: "​Healthy & Energetic";
+    content: "​Healthy & Energetic"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  71.9111111111%, 72.3545555556% {
+    content: "​Healthy & Energetic ";
+    content: "​Healthy & Energetic "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  72.3555555556%, 72.799% {
+    content: "​Healthy & Energetic l";
+    content: "​Healthy & Energetic l"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  72.8%, 73.2434444444% {
+    content: "​Healthy & Energetic li";
+    content: "​Healthy & Energetic li"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  73.2444444444%, 73.6878888889% {
+    content: "​Healthy & Energetic lif";
+    content: "​Healthy & Energetic lif"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  73.6888888889%, 74.1323333333% {
+    content: "​Healthy & Energetic life";
+    content: "​Healthy & Energetic life"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  74.1333333333%, 74.5767777778% {
+    content: "​Healthy & Energetic lifes";
+    content: "​Healthy & Energetic lifes"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  74.5777777778%, 75.0212222222% {
+    content: "​Healthy & Energetic lifest";
+    content: "​Healthy & Energetic lifest"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  75.0222222222%, 75.4656666667% {
+    content: "​Healthy & Energetic lifesty";
+    content: "​Healthy & Energetic lifesty"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  75.4666666667%, 75.9101111111% {
+    content: "​Healthy & Energetic lifestyl";
+    content: "​Healthy & Energetic lifestyl"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  75.9111111111%, 85.599% {
+    content: "​Healthy & Energetic lifestyle";
+    content: "​Healthy & Energetic lifestyle"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  85.6%, 85.9545555556% {
+    content: "​Healthy & Energetic lifestyl";
+    content: "​Healthy & Energetic lifestyl"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  85.9555555556%, 86.3101111111% {
+    content: "​Healthy & Energetic lifesty";
+    content: "​Healthy & Energetic lifesty"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  86.3111111111%, 86.6656666667% {
+    content: "​Healthy & Energetic lifest";
+    content: "​Healthy & Energetic lifest"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  86.6666666667%, 87.0212222222% {
+    content: "​Healthy & Energetic lifes";
+    content: "​Healthy & Energetic lifes"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  87.0222222222%, 87.3767777778% {
+    content: "​Healthy & Energetic life";
+    content: "​Healthy & Energetic life"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  87.3777777778%, 87.7323333333% {
+    content: "​Healthy & Energetic lif";
+    content: "​Healthy & Energetic lif"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  87.7333333333%, 88.0878888889% {
+    content: "​Healthy & Energetic li";
+    content: "​Healthy & Energetic li"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  88.0888888889%, 88.4434444444% {
+    content: "​Healthy & Energetic l";
+    content: "​Healthy & Energetic l"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  88.4444444444%, 88.799% {
+    content: "​Healthy & Energetic ";
+    content: "​Healthy & Energetic "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  88.8%, 89.1545555556% {
+    content: "​Healthy & Energetic";
+    content: "​Healthy & Energetic"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  89.1555555556%, 89.5101111111% {
+    content: "​Healthy & Energeti";
+    content: "​Healthy & Energeti"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  89.5111111111%, 89.8656666667% {
+    content: "​Healthy & Energet";
+    content: "​Healthy & Energet"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  89.8666666667%, 90.2212222222% {
+    content: "​Healthy & Energe";
+    content: "​Healthy & Energe"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  90.2222222222%, 90.5767777778% {
+    content: "​Healthy & Energ";
+    content: "​Healthy & Energ"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  90.5777777778%, 90.9323333333% {
+    content: "​Healthy & Ener";
+    content: "​Healthy & Ener"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  90.9333333333%, 91.2878888889% {
+    content: "​Healthy & Ene";
+    content: "​Healthy & Ene"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  91.2888888889%, 91.6434444444% {
+    content: "​Healthy & En";
+    content: "​Healthy & En"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  91.6444444444%, 91.999% {
+    content: "​Healthy & E";
+    content: "​Healthy & E"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  92%, 92.3545555556% {
+    content: "​Healthy & ";
+    content: "​Healthy & "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  92.3555555556%, 92.7101111111% {
+    content: "​Healthy &";
+    content: "​Healthy &"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  92.7111111111%, 93.0656666667% {
+    content: "​Healthy ";
+    content: "​Healthy "/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  93.0666666667%, 93.4212222222% {
+    content: "​Healthy";
+    content: "​Healthy"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  93.4222222222%, 93.7767777778% {
+    content: "​Health";
+    content: "​Health"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  93.7777777778%, 94.1323333333% {
+    content: "​Healt";
+    content: "​Healt"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  94.1333333333%, 94.4878888889% {
+    content: "​Heal";
+    content: "​Heal"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  94.4888888889%, 94.8434444444% {
+    content: "​Hea";
+    content: "​Hea"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  94.8444444444%, 95.199% {
+    content: "​He";
+    content: "​He"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  95.2%, 95.5545555556% {
+    content: "​H";
+    content: "​H"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+  95.5555555556%, 100% {
+    content: "​";
+    content: "​"/"Find Your Soulmate";
+    alt: "Find Your Soulmate";
+  }
+}
+@-webkit-keyframes typed-0-caret {
+  75% {
+    border-color: transparent;
+  }
+}
+@keyframes typed-0-caret {
+  75% {
+    border-color: transparent;
+  }
+}
+.input-wrapper > input:focus + .placeholder, .input-wrapper > input:active + .placeholder {
+  display: none;
+}
+
+
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+.books{
+  text-align: -webkit-center;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+}
+.margin-5{
+  margin-top: -5px;
+}
+.color-greenbg{
+background-color: #55ba69e0;
+}
+.margin-15{
+  margin-right: -15px;
+}
+
+
+.maxnone{
+  max-width: none !important;
+}
+.justify-center{
+  justify-content: center;
+}
+.font-normal{
+  font-style: normal;
+}
+.font-weigh{
+  font-weight: 100;
+}
+.font-size-20{
+  font-size: 20px;
+}
+.border-width{
+  border-width: 2px;
+}
