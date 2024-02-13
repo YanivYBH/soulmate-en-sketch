@@ -14,6 +14,7 @@ import Money from "../components/Offer/Money";
 import Sidebar from "@/components/Sidebar";
 import HeaderOffer from "@/components/HeaderOffer";
 import { useRouter } from "next/router";
+import UsersLove from "..//components/Home/UsersLove.js";
 
 export default function Result() {
   const [open, Setopen] = useState(true);
@@ -42,6 +43,7 @@ export default function Result() {
         <Youget />
         {/* <Steps /> */}
         <Mentorship />
+        <UsersLove/>
         <Faq />
         {/* <Faq /> */}
         {/* <Review /> */}

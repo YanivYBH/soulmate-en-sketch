@@ -14,8 +14,8 @@ export default function HeroSection() {
       </h3>
      
       <div className="text-center  mt-[25px] mb-[25px]">
-        <p className="text-md1 font-bold font-popins">Es ist an der Zeit, </p>
-        <p className="text-md1  leading-6 font-popins">Um deinen Seelenverwandten zu offenbaren</p>
+        <p className="text-md1 font-bold font-popins">It is time,</p>
+        <p className="text-md1  leading-6 font-popins">To reveal your soulmate</p>
       
       </div>
       <div className="grid grid-cols-1 md:grid-cols-1 gap-4">

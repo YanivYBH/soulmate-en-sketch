@@ -4,35 +4,35 @@ import Image from "next/image";
 
 const data = [
   {
-    question: "Wie schnell kann ich meine Skizze und meinen Text erhalten?",
+    question: "How Will I Receive My Soulmate Sketch & Reading?",
 
     description:
-      "Ihre handgezeichnete Skizze und Beschreibung wird Ihnen innerhalb von 24 Stunden per E-Mail zugestellt. In einigen seltenen Fällen, wenn die Nachfrage hoch ist, kann es bis zu 48 Stunden dauern. ",
+      "I will send you an email with attached your personal soulmamte sketch and reading in PDF format with the subject: “Your Reading is Ready”",
   },
   {
-    question: "Was ist alles inbegriffen?",
+    question: "When Will I Receive My Soulmate Sketch & Reading?",
 
     description:
-      "Zusätzlich zu der Skizze Ihres Seelenverwandten erhalten Sie eine vollständige Beschreibung der Eigenschaften und Qualitäten dieser Person, die Ihnen helfen werden, sich zum richtigen Zeitpunkt mit dieser Person zu verbinden.",
+      "The portrait & reading will be delivered to you within 48 hours from the purchase. I accept a limited number of readings each day to make sure all my efforts are put in each client situation.",
   },
 
   {
-    question: "Erkenne ich meinen Seelenverwandten?",
+    question: "Can I Purchase The Soulmate Sketch & Reading On Behalf Of Someone Else?",
 
     description:
-      "Viele Menschen haben festgestellt, dass ihre Skizze jemandem ähnelt, der ihnen derzeit nahe steht, ihrem derzeitigen Lebensgefährten oder Partner oder jemandem, den sie bewundern oder für den sie Gefühle empfinden",
+      "Yes, just fill the form with all the relevant details of the person.",
   },
   {
-    question: "Was ist, wenn ich beim Kauf die falsche E-Mail-Adresse verwendet habe?",
+    question: "What If I Still Have Question After My Reading?",
 
     description:
-      "Kein Problem, schicken Sie mir einfach eine E-Mail an cosmicharm@ybhltd.com mit Ihrer neuen E-Mail-Adresse und ich sorge dafür, dass Sie sie erhalten.",
+      "I’m here for you. If you need additional advice & guidance after my reading feel free to reply to my email with any question you have! E-Mail an cosmicharm@ybhltd.com",
   },
   {
-    question: "Haben Sie eine Garantie?",
+    question: "Are Your Readings Accurate And Detailed?",
 
     description:
-      "Auf jeden Fall! Wenn Sie mit der Qualität meiner Arbeit oder aus anderen Gründen nicht zufrieden sind, senden Sie mir einfach eine E-Mail.",
+      "Yes, I give all myself in all readings and I am as clear as possible. Expect the reading to be around 20-30 paragraphs long.",
   },
 ];
 function Faq() {
@@ -43,7 +43,7 @@ function Faq() {
   return (
     <>
       <p className="text-[24px] md:text-md1 2xl:text-[16px] font-popins  text-center font-semibold text-red mx-auto mt-50">
-      EINIGE DER AM HÄUFIGSTEN GESTELLTEN FRAGEN
+     FAQ
       </p>
 
       <div className="relative w-full   md:mx-0 ">

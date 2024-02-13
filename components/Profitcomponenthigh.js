@@ -12,7 +12,7 @@ export default function Profitcomponenthigh(props) {
             {props.title}
           </p>
           <p className="text-Black1 font-popins text-left font-bold text-[15px] ">
-          Level: <span className="greentext font-popins text-left font-bold text-[15px] ">Hoch (92%)</span>
+          Level: <span className="greentext font-popins text-left font-bold text-[15px] ">High (92%)</span>
           </p>
         </div>
       </div>

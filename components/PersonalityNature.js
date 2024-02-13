@@ -6,16 +6,16 @@ function PersonalityNature({setPersonalityTraits, personalityTraits}) {
     const router = useRouter();
 
     const Traits = [
-        { trait: "Emotional" },
-        { trait: "Logisch" },
-        { trait: "Dominant"},
-        { trait: "Loyal" },
-        { trait: "Vertrauenswürdig"},
-        { trait: "Ehrlich"},
-        { trait: "Aufgeschlossen" },
-        { trait: "Kindisch"},
-        { trait: "Positiv" },
-        { trait: "Pessimistisch" },
+      { trait: "Emotional" },
+      { trait: "Logical" },
+      { trait: "Bossy"},
+      { trait: "Loyal" },
+      { trait: "Trustworthy"},
+      { trait: "Honest"},
+      { trait: "Open-minded" },
+      { trait: "Childish"},
+      { trait: "Positive" },
+      { trait: "Pessimistic" },
       ];
 
       const handleSelect = (value) => {

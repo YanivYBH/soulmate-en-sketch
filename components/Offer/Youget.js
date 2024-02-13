@@ -12,6 +12,8 @@ import after3 from "../../assets/3-after.png";
 import after4 from "../../assets/4-after.png";
 import after5 from "../../assets/5-after.png";
 import book1 from "../../assets/book1.jpg";
+import review from "../../assets/revies.png";
+
 import book2 from "../../assets/book2.jpg";
 import rev from "../../assets/rev.png";
 import { LiaStarSolid } from "react-icons/lia";
@@ -65,38 +67,40 @@ export default function Youget() {
        <div className="relative w-full h-full center1 mt-[25px]">
             <Image alt="" width="250" height="250" src={fetimage}  className="realtives"/>
           </div>
-     <p className="text-md1 text-black font-popins text-center mt-[20px] "><span className="text-md1 font-bold text-black font-popins text-center"> Zusammenfassung</span>
+     <p className="text-md1 text-black font-popins text-center mt-[20px] "><span className="text-md1 font-bold text-black font-popins text-center"> Let&apos;s Summerize</span>
      
      </p>
      <p className="my-10 text-center mb-[20px] text-[14px]  font-popins ">
-     Was Sie genau bekommen, wenn Sie uns beitreten
+     What you&apos;ll exactly get after joining us
         </p>
         <div className="flex items-center my-10 ">
         <Image src={img12} alt="" width={40}/>
         <p className="ml-15 text-[14px] font-popins">
-        <span className="font-bold">✅ Seelenverwandten Sketch : </span>
-        Künstlerische, handgezeichnete Visualisierung Ihres Seelenverwandten.
+        <span className="font-bold">✅ Soulmate Sketch : </span>
+        Artistic hand-drawn visualization of your destined soulmate.
+
         </p>
       </div>
       <div className="flex items-center   justify my-10 ">
         <Image src={img11} alt="" width={40} />
         <p className="ml-15 text-[14px] font-popins">
-        <span className="font-bold">✅ Liebestarot Insights : </span>
-        Entschlüsseln Sie die Geheimnisse Ihrer romantischen Zukunft durch aufschlussreiche Tarot-Lesungen.</p>
+        <span className="font-bold">✅ Love Tarot Insight : </span>
+        Unlock secrets of your romantic future through insightful tarot readings.
+</p>
       </div>
       
 
       <div className="flex items-center my-10 ">
         <Image src={img14} alt="" width={40}/>
         <p className="ml-15 text-[14px] font-popins">
-        <span className="font-bold">✅ Sternzeichen Harmonie : </span>
-        Entdecken Sie das Sternzeichen, das perfekt mit der Energie Ihres Seelenverwandten übereinstimmt.</p>
+        <span className="font-bold">✅ Zodiac Harmony : </span>
+        Discover the zodiac sign that perfectly aligns with your soulmate's energy.</p>
       </div>
 
-    
+     
 
 
-        <p className="text-md1 mt-[40px] text-black font-popins font-bold text-center mt-[20px] ">Nachweislich effektiv!
+        {/* <p className="text-md1 mt-[40px] text-black font-popins font-bold text-center mt-[20px] ">Nachweislich effektiv!
      </p>
      <p className="text-md1  text-black font-popins text-center mb-[20px]"> Nachdem Sie uns beitreten werden Sie mehr </p>
      
@@ -128,7 +132,7 @@ export default function Youget() {
         <span className="font-bold">Im Einklang : </span>
         Verbinden Sie sich mit Ihrer Bestimmung und leben Sie in Harmonie mit dem Universum.
           </p>
-      </div>
+      </div> */}
 
       {/* <div className="flex items-center my-10 ">
         <Image src={after5} alt="" width={40}/>

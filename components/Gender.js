@@ -11,9 +11,9 @@ function Gender({ Gender, setGender }) {
   console.log(setGender)
   const router = useRouter();
   var Genders = [
-    { status: "Weiblich", icon: female },
-    { status: "Männlich", icon: male },
-    { status: "Möchte ich nicht angeben", icon: X },
+    { status: "Female", icon: female },
+    { status: "Male", icon: male },
+    { status: "Don't Want to specify", icon: X },
     { status: "LGBTI", icon: LGBTI },
   ];
 

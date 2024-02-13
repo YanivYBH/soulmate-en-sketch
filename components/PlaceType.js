@@ -13,19 +13,19 @@ function PlaceType({ setPlaceType, placeType }) {
 
   var PlaceTypeStatus = [
     {
-      status: "Großstadt",
+      status: "Metropolis",
       pic: <Image src={fire} width={120} height={120} alt="Fire Image" />,
     },
     {
-      status: "Stadt am Meer,",
+      status: "Seaside town",
       pic: <Image src={Water} width={120} height={120} alt="Fire Image" />,
     },
     {
-      status: "Isoliert",
+      status: "Isolated",
       pic: <Image src={Earth} width={120} height={120} alt="Fire Image" />,
     },
     {
-      status: "Ständig auf Reisen",
+      status: "Travelling all the time",
       pic: <Image src={weather} width={120} height={120} alt="Fire Image" />,
     },
   ];

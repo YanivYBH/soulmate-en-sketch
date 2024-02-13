@@ -22,11 +22,19 @@ export default function Steps() {
   return (
     <div className="grid grid-cols-1">
       <div className="text-center mt-[50px] mb-[5px]">
-        <p className="text-md1 font-bold font-popins">Der Mond verrät viel über Ihren Seelenverwandten</p>
-        <p className="text-black text-[14px] mt-10 font-popins ">Sind Sie bereit, das reichhaltige und 
-        <span className="font-bold"> erfüllte Leben zu führen, das Sie verdienen?</span> Ihre astralen Energien anzuzapfen und damit zu beginnen, Ihre  tiefsten Wünsche zu manifestieren?<br></br><br></br>Sie haben vielleicht in der Vergangenheit Astrologie-Lesungen und Geburtshoroskope erhalten, aber NICHTS vergleichbares. Unsere neue Ultimative Hellseherische Analyse ist ein wunderschöner, 10-seitiger personalisierter Bericht, der eine noch tiefere Ebene Ihrer persönlichen Astrologie und Ihres Potenzials erforscht.<span className="font-bold"><br></br> Entdecken Sie verblüffende Wahrheiten über Ihren zukünftigen Partner, Ihre romantischen Beziehung, die Eigenschaften Ihrer wahren Liebe und das Leben, das Ihnen bestimmt ist zu leben!</span> 
+        <p className="text-md1 font-bold font-popins">It&apos;s No Accident</p>
+        <p className="text-md1  leading-6 font-popins">Because Now Is the Time for You to Begin a Magical Journey…</p>
+        <p className="text-black text-[14px] mt-10 font-popins ">
+        <span className="font-bold">Ask yourself,</span> would you drive to an unknown place without GPS guidance, like Waze or Google Maps?<br></br> If your answer is YES, we may not be the perfect match. However, if your response is <span className="font-bold">NO,</span> then Cosmicharm is precisely what you need — your personal life GPS for navigating the best possible path. 
+        Welcome to a transformative experience that will empower you like never before.
         
         </p>
+      </div>
+      <div className="text-center mt-[25px] mb-[5px]">
+        <p className="text-md1 font-bold font-popins">This is why</p>
+        <p className="text-md1  leading-6 font-popins">The time to act is NOW</p>
+        <p className="text-black text-[14px] mt-10 font-popins ">
+        I will use my intuitive psychic and artistic abilities to feel the energies surrounding your soulmate to transform my visions and feelings into a portrait that will shed light on your love life.<br></br><br></br>In addition to the Soulmate Sketch you will receive an In Depth Reading about the characteristics of your soulmate.<br></br>This powerful and inspiring reading will also contain day-to-day guidance & advices to navigate your love life more confidently! <br></br> <br></br>  Act now and take the first step toward a brighter, more fulfilling future.</p>
       </div>
       {/* <div className="text-center mt-[50px] mb-[5px]">
         <p className="text-md1 font-bold font-popins">This is why</p>

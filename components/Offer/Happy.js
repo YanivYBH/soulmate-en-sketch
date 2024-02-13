@@ -18,9 +18,9 @@ export default function Happy() {
   return (
     <>
       <div className="text-center mt-[50px] bg-darkBrown rounded-t-lg py-20 ">
-        <p className="text-md1 text-[#FFFFFF] font-popins">Geben Sie uns eine Chance</p>
+        <p className="text-md1 text-[#FFFFFF] font-popins">Give Us a Chance</p>
         <p className="text-md1 font-bold text-[#FFFFFF] font-popins">
-        Ihren Seelenverwandten zu finden
+        to Find Your Soulmate
 
 
         </p>
@@ -38,11 +38,11 @@ export default function Happy() {
           <div className="flex justify-between items-center   p-15 bg-[#FFFFFF]">
             <div className="lefttext">
               <p className="text-[18px] font-bold  font-popins">
-              Jetzt für nur 
+              For Only
               </p>
             
               <p className="text-[11px] font-popins">
-              weniger als  <span className="font-bold">eine Mahlzeit 🍲</span>
+              ess than <span className="font-bold">a meal 🍲</span>
               </p>
               
             </div>
@@ -52,14 +52,14 @@ export default function Happy() {
             >
               <div data-v-d63a90d2="" class="flex flex-row items-start">
                 <span data-v-d63a90d2="" class="text-sm font-popins">
-                €
+                $
                 </span>
                 <span data-v-d63a90d2="" class="text-Black1 font-popins text-left font-bold text-[15px] mt-[-5px] mx-2 text-lg font-popins">
-                  29
+                 34
                 </span>
               </div>
               <p className="text-Black1 center1 text-[13px] text-line">
-              €79
+              $79
                 </p>
               
             </div>
@@ -70,7 +70,7 @@ export default function Happy() {
           <button className="rounded-xl p-20 text-white color-greenbg w-full font-popins  font-bold  font-popins " onClick={handleRedirect}
         >
             <p className="text-[13px] font-popins">
-            ENTDECKEN SIE IHREN SEELENVERWANDTEN
+            I want to reveal my soulmate!
               </p>
           </button>
         </div>
@@ -88,11 +88,12 @@ export default function Happy() {
         <div className="bg-darkBrown  mt-20 px-20 relative">
       <div className="border-2 border-lightPurple rounded-2xl p-20 ">
         <p className="text-center text-[#ffffff] font-bold text-[20px]">
-        Unsere Geld-zurück-Garantie 
+        Our Money-Back Guarantee
         </p>
         <p className="text-center text-[#ffffff] text-[14px]">
-        Unsere Geld-zurück-Garantie Wir sind von unserem Service so überzeugt, dass wir Ihnen innerhalb von 30 Tagen nach dem Kauf den vollen Betrag zurückerstatten, wenn Sie keine Ergebnisse verzeichnen können. Erfahren Sie mehr über alle Bedingungen in unserer
-
+        We are so confident in our services that we offer a full refund within
+          30 days of purchase if you do not achieve results. Learn more about
+          all the conditions in our
           {/* <span className="underline"> Subscription term </span> */}
         </p>
       </div>

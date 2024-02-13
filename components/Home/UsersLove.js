@@ -47,7 +47,7 @@ export default function UsersLove() {
             <Image alt="" src={comma} />
 
             <p className="ml-10 mb-5 italic">
-            Der Künstler hat die Ergebnisse meiner Tarot-Lesung und Numerologie gekonnt in eine Skizze übersetzt, die sich wirklich persönlich angefühlt hat. Die kostenlose Tarot-Sitzung hat mir zusätzliche Einblicke in mein Liebesleben gegeben, und es hat Spaß gemacht, über die Sternzeichen-Informationen nachzudenken. Toller Service für all diejenigen, die spirituelle Führung in der Liebe suchen</p>
+            I was genuinely surprised by the sketch of my soulmate – it felt deeply personal and resonated with me. The tarot reading session was insightful, and learning about my ideal zodiac match was a fun bonus! A truly unique experience that combined art, spirituality, and astrology in a beautiful way.</p>
           </div>
         </div>
       </>
@@ -81,7 +81,7 @@ export default function UsersLove() {
           <Image alt="" src={comma} />
 
           <p className="ml-10 mb-5 italic">
-          Ich war wirklich überrascht von der Skizze meines Seelenverwandten – sie fühlte sich zutiefst persönlich an und hat mich wirklich berührt. Die Tarot-Lesesitzung war aufschlussreich und herauszufinden was meine ideale Sternzeichen-Übereinstimmung ist war ein lustiger Bonus! Ein wirklich einzigartiges Erlebnis, das Kunst, Spiritualität und Astrologie auf wunderschöne Weise vereint.</p>
+          As a skeptic of numerology and tarot, I tried this service out of curiosity. I must admit, the drawing had an uncanny resemblance to my thoughts and the tarot session was much more enlightening than I expected. It's an interesting way to explore one's self and the mysteries of connection..</p>
         </div>
       </div>
       <div className=" md:col-span-1 bg-grey-card p-20 rounded-xl md:my-0 my-10 mx-8 md:mx-5  borders-rev">
@@ -112,7 +112,7 @@ export default function UsersLove() {
           <Image alt="" src={comma} />
 
           <p className="ml-10 mb-5 italic">
-          Als Skeptiker der Numerologie und des Tarot habe ich diesen Dienst einfach aus Neugier ausprobiert. Ich muss zugeben, dass die Zeichnung eine unheimliche Ähnlichkeit mit meinen eigenen Gedanken und Vorstellungen hatte und die Tarot-Sitzung viel aufschlussreicher war, als ich es erwartet hatte. Es ist eine interessante Möglichkeit, sich selbst und die Geheimnisse seiner Selbst und seines Seelenbundes zu erkunden.</p>
+          Fascinating and heartwarming! The artist skillfully translated my tarot reading and numerology into a sketch that felt personalized. The free tarot session provided additional insights into my love life, and the zodiac information was a fun aspect to consider. Great service for those seeking spiritual guidance in love.</p>
         </div>
       </div>
 
@@ -145,7 +145,7 @@ export default function UsersLove() {
           <Image alt="" src={comma} />
 
           <p className="ml-10 mb-5 italic">
-          Ich habe meine Erfahrung geliebt! Die Skizze war nicht nur wunderschön, sondern machte auch den Eindruck als ob Sie etwas sehr Reales über meinen zukünftigen Partner einfing. Die Tarot-Lesung hat mich zum Nachdenken gebracht und es war faszinierend, etwas über das potenzielle Sternzeichen meines Seelenverwandten zu erfahren. Sehr zu empfehlen für alle, die bereit sind, die Welt des Tarot und der Astrologie zu erkunden.</p>
+          A delightful and mystical journey! The sketch of my soulmate was beautifully drawn and surprisingly in sync with my intuition. The tarot session was a great addition, providing clarity and guidance. The ideal soulmate zodiac advice was an interesting angle that added to the overall experience.</p>
         </div>
       </div>
     </div>

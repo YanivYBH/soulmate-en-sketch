@@ -16,11 +16,11 @@ export default function GoalProfit() {
   return (
     <div>
       <Profitcomponent title="Name" desc={query.name} img={Name} width="50" />
-      <Profitcomponent title="Geburtsmond" desc={query.birthdate} img={Moon} width="50" />
+      <Profitcomponent title="Birth Moon" desc={query.birthdate} img={Moon} width="50" />
       <Profitcomponenthigh
         desc=""
         className="greentext"
-        title="Erfolgswahrscheinlichkeit"
+        title="Profitibility of Success"
         img={Profit}
       />
      

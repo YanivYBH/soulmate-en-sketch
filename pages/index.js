@@ -29,12 +29,12 @@ export default function Home() {
           <div className="mt-20 mb-20 pb-20 md:bg-gradient-to-t ">
             <Challenges />
             
-            <OneGuide />
+            {/* <OneGuide /> */}
             {/* <Trusted /> */}
             <UsersLove />
-            {/* <HappyLife /> */}
-            
-            {/* <Numbers /> */}
+            {/* <HappyLife />
+             */}
+            <Numbers />
           </div>
         </Container>
         <Footer />

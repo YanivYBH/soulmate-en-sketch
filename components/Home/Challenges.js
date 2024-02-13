@@ -26,7 +26,7 @@ export default function Challenges() {
        <h2
           className=" text-md  font-semibold center1  md:text-center md:px-60"
         >
-         Bist du bereit, endlich deinen wahren Seelenverwandten zu treffen? 🔮✨</h2>
+         Discover Your True Soulmate: Begin Your Magical Journey Today! 🔮✨</h2>
        <div className="flex justify-center mt-20">
           <div className="relative w-full h-full ">
             <Image alt="" src={hero}  className="realtives"/>
@@ -36,23 +36,17 @@ export default function Challenges() {
        
       </div>
       <h3 className="text-md center1 font-semibold mt-30 center1  md:text-center md:px-60">
-      Beeil dich! 
+      Hurry up..
      </h3>
       <p className=" text-[15px] md:text-sm  md:text-center md:px-50 center1">
-      
-      
-Es sind nur noch wenige Plätze frei, um deinen Seelenverwandten mit unseren Skizzen zu entdecken.
-
-Schließe dich den Tausenden von Frauen an, die bereits mit unserer Hilfe ihre perfekte Ergänzung gefunden haben!
-
-Leg los, indem du unten ein paar einfache Fragen beantwortest 👇
+      Dive into the depths of your destiny. Let our sketches be the map to your heart's yet-untold love story, and discover the face of your soulmate, as envisioned through the lens of the cosmos. Join us on this extraordinary journey, and see where the stars will lead you.👇
       </p>
       <div className="  font-bold  text-center mt-32 mb-52 text-[13px]">
         <button
           className="gradient-custom  w-full md:w-[330px] text-center trext-sm text-white py-15 px-20 rounded-xl text-[13px] "
           onClick={() => router.push("/survey/1")}
         >
-          ENTDECKEN SIE IHREN SEELENVERWANDTEN
+          Start Your Free Reading Now
         </button>
         <div className="flex justify-center">
           <div className="relative mt-30 w-[350px] h-[160px] md:w-[350px] md:h-[160px]">
@@ -64,7 +58,6 @@ Leg los, indem du unten ein paar einfache Fragen beantwortest 👇
       <Mentorship />
       <div className="text-center mt-[40px] ">
        
-       <p className="text-md1  mb-[30px] leading-6 font-popins"> Echte <span className="text-md1 font-bold leading-6 font-popins">handgezeichnete Beispiele...</span></p>
       
      </div>
      <div className="relative w-full h-full center1 ">
@@ -144,15 +137,14 @@ Leg los, indem du unten ein paar einfache Fragen beantwortest 👇
         </div> */}
         
       <h3 className="text-md  font-semibold mt-60 center1  md:text-center md:px-60">
-     
-      Schicksal offenbart durch Tarot 
+Fate revealed through Tarot
       </h3>
       <p className=" text-[15px] center1 md:text-sm mt-16 font-normal text-left">
-      JA! In unserer Sitzung gibt es für Sie ein {" "}
+      YES! Our session includes a {" "}
         <span class="gradient-custom  w-full md:w-[330px] text-center trext-sm text-white py-5 px-10 rounded-sm text-bold text-sm font-bold text-left  md:text-center ">
-        KOSTENLOSES
+        FREE
         </span>{" "}
-        Tarot-Lesen, um Ihren Liebesweg und Ihren wahren Seelenverwandten zu enthüllen. Sie erfahren, was das Sternzeichen Ihres Seelenverwandten ist, wo Sie versuchen sollten Ihn zu finden, wie Sie auf Ihn zugehen sollten und vieles mehr...
+         Tarot reading for you to reveal your love path and your true soulmate. You'll learn what your soulmate's zodiac sign is, where you should try to find him, how you should approach him and much more...
      
       </p>
       <div class="container-apps  center1 mt-16">

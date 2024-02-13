@@ -11,10 +11,10 @@ export default function Joined() {
   return (
     <div>
     <div className="p-20 border-2 border-lightPurple rounded-2xl h-[100px] relative mt-[35px]">
-      <p className="font-bold text-Black1 font-popins max-w-[160px]   md:max-w-full margin-5 ">
-      Enthülle deinen 
+      <p className="text-[18px] font-bold  font-popins">
+Reveal your 
         <span className="font-bold text-lightPurple font-popins mr-[2px] ">
-          <button></button>  Seelenverwandten 
+          <br></br>  soulmate 
         </span>
        <br className=" hidden md:block" /> 
       </p>
